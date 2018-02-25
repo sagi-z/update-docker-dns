@@ -17,7 +17,7 @@ sudo cp update-docker-dns.sh /usr/loca/bin
 using *dnsmasq*:
 
 ```
-sudo bash -c "cat > /etc/NetworkManager/dnsmasq.d"
+sudo bash -c "cat > /etc/NetworkManager/dnsmasq.d/docker-dns"
 addn-hosts=/etc/docker-container-hosts
 ^D
 ```
